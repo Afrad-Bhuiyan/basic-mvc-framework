@@ -2,8 +2,16 @@
 
 class Home extends controller
 {
-    public function index($a = null, $b = null, $c = null)
+
+    public function __construct()
     {
-        echo "index from " . __CLASS__ . " controller";
+        $this->model();
     }
+
+    public function index()
+    {
+        $this->view("pages/home");
+    }
+
+    
 }

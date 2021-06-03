@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Route class will be used to instanciate a particular 
+ * controller from `app/controller/*.php` and a method.
+ */
+
 class Route
 {   
     //`home` is the default controller
