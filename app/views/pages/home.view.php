@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <h1>Welcome to our framework</h1>
+    <h1 style='text-align:center;'>Welcome to our framework</h1>
     
 </body>
 </html>
