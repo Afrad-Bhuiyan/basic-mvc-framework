@@ -58,7 +58,7 @@ class Route
         }else{
 
             //exite the script and show 404 page if controller does not exist
-            echo "404 not found";
+            include "app/views/pages/404.view.php";
             die();
         }
 
@@ -72,8 +72,8 @@ class Route
 
         }else{
 
-            //show 404 page if controller does not exist
-            echo "404 not found";
+            //exite the script and show 404 page if method does not exist
+            include "app/views/pages/404.view.php";
             die();
         }
 

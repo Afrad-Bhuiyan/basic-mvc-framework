@@ -30,12 +30,11 @@ class controller
                 include "app/models/{$class}.model.php";
 
             }else{
-
+                
                 return false;
             }
 
         });
     }    
-
 
 }

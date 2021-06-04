@@ -15,13 +15,13 @@ class User extends Database
         //a connection with the database
         $this->db_connect();
     }   
-    
+
     //use the funtion to get the instance of this model
     public static function getInstance()
     {
         return (!self::$instance) ? self::$instance = new self() : self::$instance;
     }
-    
+
     public function __destruct()
     {
         //call the from databse class to disconnect 
@@ -29,5 +29,5 @@ class User extends Database
         //executing all the functions
         $this->db_disconnect();
     }   
-
+    
 }
